@@ -1,0 +1,23 @@
+<?php
+
+function ju_wc_customizer_section( $wp_customize ){
+	$wp_customize->add_setting( 'ju_wc_pa_slug', array(
+		'default'                   =>  ''
+	));
+
+	$wp_customize->add_section( 'ju_wc_section', array(
+		'title'                     =>  __( 'WooCommerce', 'udemy' ),
+		'priority'                  =>  50,
+		'panel'                     =>  'udemy',
+	));
+
+	$wp_customize->add_control(new WP_Customize_Control(
+		$wp_customize,
+		'ju_wc_pa_slug_input',
+		array(
+			'label'                 =>  __( 'Product Attribute Slug', 'udemy' ),
+			'section'               => 'ju_wc_section',
+			'settings'              => 'ju_wc_pa_slug',
+		)
+	));
+}

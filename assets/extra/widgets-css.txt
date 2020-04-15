@@ -1,0 +1,2 @@
+/* CSS WIDGETS */
+#wp-calendar{ width: 100%; }
