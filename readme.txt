@@ -1,4 +1,4 @@
-=== Recipe Rating ===
+=== Rating for Recipe ===
 Contributors: riteshghimire9090
 Tags: recipe,recipes,recipe rating,biryani recipe,chicken recipe,cooking,easy recipes,dinner recipes,winter recipes,chicken recipes,grilling recipes,baking,cooking recipe rating based on sentiment analysis php,rating,ratings,wok recipe,egg recipe,recipe by varun inamdar,gaining rating,cake recipe,rating my su,easy recipe,rating guys,recipe (website category),best recipe,recipe30,palak recipe,rating girls,chili recipe
 Requires at least: 4.9
